@@ -5,39 +5,266 @@
     <meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="js/">
-   
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <title>Hello, world!</title>
   </head>
   <body>
-    <header>
-    </header>
+        <header>
+                <h1>Генеалогическое древо нашего рода</h1>
+              
+        </header>
 
-    <div class="container">
-        <div class="aslan card">
-           
-            <div class="img_block"></div>
-            <div class="title_block">Урдиев Аслан</div>
-            <div class="links_block"><a href="https://vk.com/aslanurdiev"><img src="../My family gen tree/img/VK_Blue_Logo_transparent.png" class="child_width"></a></div>
+        <div class="separation_block"></div>
+	
+        <div class="start">
+            <div class="contain_wrap">
+                <div class="container0">
+                    <div id="parent">Магьпери</div>
+                    <div id="parent">Урдихан</div>
+                </div>
+            </div>
+                <div class="canweight">
+            <canvas id="canvas" width="400" height="60"></canvas>
+                </div>
+                <div class="cont2"> 
+                <div class="container1">
+                    <div class="child1">Рамазан</div>
+                    <div class="child1">Хадижат </div>
+                    <div class="child1">Мягьмуд</div>
+                </div>
+                </div>
+<!--вТОРОЙ ПОКОЛЕНИЕ -->
+            <div class="canweight2">
+            <canvas id="canvas2" width="6000" height="100"></canvas>
+            </div>
+        <div class="cont3"> 
+                <div class="container2">
+                    <div class="child2_1">Урди</div>
+                    <div class="child2 child_pad_add">Угъланагьа</div>
+                    <div class="child2 child_pad_add">Гьяжирамазан</div>
+                    <div class="child2 child_pad_add">Аьбдурагьман</div>
+                    <div class="child2">Герек   </div>                    
+                </div>
+                <div class="container2_1">
+                    <div class="child2">Аьлиэскер</div>
+                    <div class="child2">Аьлиэкбер</div>
+                    <div class="child2">Зюгьре</div>
+                </div>
         </div>
 
-        <div class="aslan card">
-            
-            <div class="img_block"></div>
-            <div class="title_block">Урдиева Амина</div>
-            <div class="links_block"><a href="https://vk.com/aslanurdiev"><img src="../My family gen tree/img/VK_Blue_Logo_transparent.png" class="child_width"></a></div>
+
+        <div class="canweight2">
+            <canvas id="canvas3" width="6000" height="100"></canvas>
         </div>
 
-        
+        <!-- Урди потомки-->
+        <div class="cont4">
+            <div class="container3">
+            	<div class="aslan_family">
+                		<div class="child2">Аслан</div>
+                		<div class="wife__aslan">Фатима</div>
+                </div>
+                <div class="child2">Шябан</div>
+            </div>
+
+
+         <!-- Фбдурягьман потомки-->
+            <div class="container4">
+                <div class="child4 child_pad_add">Аьбдулгамид</div>
+                <div class="wrap">
+                        <div class="child4 marriage child_pad_add">Аьбдулмажид</div>
+                        <div class="wife-abdulmajid">Суна</div>
+                    </div>
+                <div class="child4">Айнаханум</div>
+                <div class="child4">Зюгьре</div>
+                <div class="child4">Эмне</div>
+                <div class="wrap wrap-abdulmajid">
+                    <div class="child4 marriage child_pad_add">Аьбдулжамал</div>
+                    <div class="wife-abdulmajid">Гюлюсюм </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="canweight3">
+            <canvas id="canvas4" width="6000" height="200"></canvas>
+        </div>
+        <div class="cont5">
+            <div class="container5">
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete">Урдихан</div>
+                    <div class="child4 child_ml_delete wifes">Нефизат</div>
+                </div>
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete">Шябан</div>   
+                    <div class="child4 child_ml_delete wifes">Селеме</div>
+                </div>
+                <div class="child4 child_mt_delete">Рейгьанат</div>
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete">Рамазан</div>
+                    <div class="child4 child_ml_delete wifes">Тамара</div>
+                </div>  
+            </div>
+            <div class="container6">
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete child_pad_add">Аьбдурагьман</div>
+                    <div class="child4 child_ml_delete wifes">Нисаханум</div>
+                </div>
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete child_pad_add">Аьбдулвагьаб</div>
+                    <div class="child4 child_ml_delete wifes">Майсарат</div>
+                </div>
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete child_pad_add">Аьбдулгьямид</div>
+                    <div class="child4 child_ml_delete wifes">Муминат</div>
+                </div>
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete child_pad_add">Аьбдулкьадир</div>
+                    <div class="child4 child_ml_delete wifes">Марифа</div>
+                </div>
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete wifes">Мерзият</div>
+                    <div class="child4 child_ml_delete">Шабан</div>
+                </div>    
+                <div class="urdihan_family">
+                    <div class="child4 child_ml_delete wifes">Секинат</div>
+                    <div class="child4 child_ml_delete">Марифа</div>
+                </div>    
+            </div>
+            <div class="container7">
+                <div class="child4">Тажудин</div>
+                <div class="child4">Багьадин</div>
+                <div class="child4">Расим</div>
+                <div class="child4">Индира</div>
+                <div class="child4">Зюгьре</div>
+            </div>
+        </div>
+    
+
+    <!--канвас-->
+
+    <div class="canweight4">
+        <canvas id="canvas5" width="6000" height="300"></canvas>
     </div>
-      
+
+    <!--Пятая линия-->
+
+    <div class="cont6">
+        <!--Урдихан Нефизат-->
+        <div class="container8 cont6_1">
+            <div class="child5 add_pad">Гурият</div>
+            <div class="five_line">
+                <div class="child4 child_ml_delete">Камиль</div>
+                <div class="child4 child_ml_delete wifes">Беневша</div>
+            </div>
+            <div class="child5 add_pad">Шамиль</div>
+            <div class="five_line">
+                <div class="child4 child_ml_delete wifes">Рейганат</div>
+                <div class="child4 child_ml_delete ">Бейдулла</div>
+            </div>    
+            <div class="five_line">
+                <div class="child4 child_ml_delete wifes">Муслимат</div>
+                <div class="child4 child_ml_delete">Сабир</div>
+            </div>
+            <div class="five_line">
+                <div class="child4 child_ml_delete wifes">Калимат</div>
+                <div class="child4 child_ml_delete">Исамудин</div>
+            </div>
+            <div class="five_line">
+                <div class="child4 child_ml_delete"><a href="https://vk.com/id331189079" target="_blank" >Ахмед</a></div>
+                <div class="child4 child_ml_delete wifes"><a href="https://vk.com/id401226048 " target="_blank" >Бикаханум</a></div>
+            </div>  
+        </div>
+        <!--Рамазан  и Тамара-->
+        <div class="container9 cont6_1">
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete">Сабир</div>
+                <div class="child4 child_ml_delete wifes">Татьяна</div>
+            </div>
+                <div class="child5">Садир</div>
+                <div class="child5">Фатима</div>
+        </div>
+        <!--Щабан 2 дочери-->
+       
+
+    
+
+    
+
+        <div class="container10 cont6_1">
+            <div class="child5">Бикаханум</div>
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete wifes">Гульбагар</div>
+                <div class="child4 child_ml_delete">Касум</div>
+            </div>
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete wifes">Зарифа</div>
+                <div class="child4 child_ml_delete">Камиль</div>
+            </div>
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete">Тимур</div>
+                <div class="child4 child_ml_delete wifes">Сабина</div>
+            </div>           
+            <div class="child5">Артур</div>                         
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete wifes">Эльвира</div>
+                <div class="child4 child_ml_delete">Шамиль</div>
+            </div>
+        </div>
+
+        <div class="container11 cont6_1">
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete">Рамис</div>
+                <div class="child4 child_ml_delete wifes">Динара</div>
+            </div>
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete wifes">Мадина</div>
+                <div class="child4 child_ml_delete">Керим</div>
+            </div>
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete">Руслан</div>
+                <div class="child4 child_ml_delete wifes">...</div>
+            </div>
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete">Низам</div>
+                <div class="child4 child_ml_delete wifes">Хадижа</div>
+            </div>
+        </div>
+
+        <div class="container12 cont6_1">
+            <div class="child5">Рафик</div>
+            <div class="child5">Румина</div>
+            <div class="child5">Казим</div>
+            <div class="child5">Загирбег</div>
+        </div>
+
+        <div class="container13 cont6_1">
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete">Альберт</div>
+                <div class="child4 child_ml_delete wifes">Анастасия</div>
+            </div>
+            <div class="child5">Гульнара</div>
+        </div>
+
+        <div class="container13 cont6_1">
+            <div class="child5">Эллада</div>
+            <div class="child5">Елена</div>
+            <div class="child5">Марат</div>
+        </div>
+
+        <div class="container13 cont6_1">
+            <div class="add_pad five_line ">
+                <div class="child4 child_ml_delete">Магомед</div>
+                <div class="child4 child_ml_delete wifes">Назиле</div>
+            </div>
+            <div class="child5">Роман</div>
+        </div>  
 
 
 
 
-
-
-
+    </div>
+</div>
     <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
